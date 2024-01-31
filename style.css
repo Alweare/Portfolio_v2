@@ -43,18 +43,6 @@ body{
 	}
 }
 
-/*.photo_yanis{
-	animation-duration: 2;
-	animation-name: slideout;
-}
-@keyframes slideout{
-	from {
-		margin-right: 200%;
-	}
-	to {
-		margin-left: 0%;
-	}
-}*/
 
 
 ul{
@@ -89,8 +77,11 @@ a{
 }
 
 .ordi{
-	height: 50%;
+	height: 70%;
 	border-radius: 20%;
+	border: solid #f72585 2px;
+	box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+	
 }
 
 .about_me {
