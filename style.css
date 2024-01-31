@@ -1,0 +1,153 @@
+ @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@600&family=Pathway+Gothic+One&display=swap');
+
+body{
+	background: linear-gradient(#7209b7,#f72585);
+	margin: 0;
+	padding: 0;
+}
+/*Header*/
+.titre{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.titre_metier{
+	font-family: "Pathway Gothic One";
+	font-size: 3rem;
+	font-weight: 200;
+	color: #ffbd00;
+	opacity: 70%;
+}
+.titre_nom{
+	font-family: "Encode Sans Semi Expanded";
+	font-size: 3rem;
+	font-weight: 200;
+	color: #ffbd00;
+
+}
+.titre_anim{
+	animation-duration: 2s;
+	animation-name: down;
+}
+
+@keyframes down {
+	from {
+		margin-top: -200%;
+	}
+	to {
+		margin-top: 0%;
+	}
+}
+
+/*.photo_yanis{
+	animation-duration: 2;
+	animation-name: slideout;
+}
+@keyframes slideout{
+	from {
+		margin-right: 200%;
+	}
+	to {
+		margin-left: 0%;
+	}
+}*/
+
+
+ul{
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+	list-style: none;
+	margin-right: 5%;
+	opacity: 0.5;
+	
+}
+a{
+	text-decoration: none;
+	color: #ffbd00;
+	font-family: "Encode Sans Semi Expanded";
+	font-size: 2rem;
+}
+
+/*Section About me*/
+.container_about{
+	height: 80vh;
+	margin-bottom: 190px;
+}
+.about{
+	height: 50vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.ordi{
+	height: 50%;
+	border-radius: 20%;
+}
+
+.about_me {
+	font-family: "Encode Sans Semi Expanded";
+	font-size: 1.3rem;
+	color: black;
+	height: 80%;
+	width: 60%;
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+
+/*Animation du texte about me*/
+@keyframes slidein {
+	from {
+		margin-left: -100%;
+	}
+	to {
+		margin-right: 0%;
+		
+	}
+}
+
+/*Section Compétences*/
+.container_competence{
+	
+	margin-bottom: 190px;
+	display: flex;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.titre_section{
+	text-align: center;
+	margin-bottom: 50px;
+	color: #ffbd00;
+	font-family: "Encode Sans Semi Expanded";
+	grid-column-start: 1;
+ 	 grid-column-end: 4;
+}
+.competence{
+    display: grid;
+      grid-template-columns: repeat(3, 1.5fr);
+      gap: 5rem;
+      max-width: 800px;
+      margin: 20px auto;
+	  margin-bottom: 100px;
+}
+.boite_competence{
+	border: 1px solid #ddd;
+	text-align: center;
+	padding: 20px;
+}
+.logo_langage{
+	height: 100px;
+	width: auto;
+}
+/*Section Projets*/
+/*Section Contact*/
+/*Footer*/
