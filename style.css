@@ -1,13 +1,18 @@
  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@600&family=Pathway+Gothic+One&display=swap');
 
 body{
-	background: linear-gradient(#7209b7,#f72585);
+	/*background: linear-gradient(#7209b7,#f72585);*/
+	background-color: #fdc4d9 ;
 	margin: 0;
 	padding: 0;
 }
 /*Header*/
+header{
+	background: linear-gradient(#7209b7,#fcacd0);
+
+}
 .titre{
-	height: 100vh;
+	/*height: 100vh;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -79,8 +84,7 @@ a{
 .ordi{
 	height: 70%;
 	border-radius: 20%;
-	border: solid #f72585 2px;
-	box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
 	
 }
 
@@ -117,7 +121,9 @@ a{
 .titre_section{
 	text-align: center;
 	margin-bottom: 50px;
-	color: #ffbd00;
+	font-size: 2.5rem;
+	/*color: #ffbd00;*/
+	color: #7209b7;
 	font-family: "Encode Sans Semi Expanded";
 	grid-column-start: 1;
  	 grid-column-end: 4;
@@ -142,3 +148,7 @@ a{
 /*Section Projets*/
 /*Section Contact*/
 /*Footer*/
+footer{
+	background-color: #7209b7;
+	height: 10vh;
+}
