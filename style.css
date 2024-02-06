@@ -210,3 +210,32 @@ footer{
     }
    
 } 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container_about {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Deux colonnes */
+        gap: 20px; /* Espacement entre les colonnes */
+        align-items: start; /* Alignement vertical en haut */
+    }
+	.about {
+        flex-direction: column;
+
+    }
+	.about_me {
+		font-family: "Encode Sans Semi Expanded";
+		font-size: 1.3rem;
+		color: black;
+		height: 80%;
+		width: 60%;
+		animation-duration: 0;
+		animation-name: no
+	}
+
+    .ordi {
+		display: none;
+ 
+    }
+    .titre_section {
+        margin-top: 150px; /* Marge de 150px au-dessus du titre de section */
+    }
+}
